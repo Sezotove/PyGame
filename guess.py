@@ -9,7 +9,7 @@ playerName = input('What is your name?: ')
 
 number = random.randint(1, 100)
 guessAttempts = random.randint(5, 10)
-print(f"Welcome {playerName}, I have chosen a number between 1 and 10 ({number}), you are allowed {guessAttempts} try's.")
+print(f"Welcome {playerName}, I have chosen a number between 1 and 10, you are allowed {guessAttempts} try's.")
 
 for attempt in range(guessAttempts):
     print('Take a guess: ')
